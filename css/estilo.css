@@ -1,0 +1,88 @@
+/*
+rem é o dos 16 px
+vw é o tamanho da tela, máx 100
+*/
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0 10vw;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.dolado{
+    display: flex;
+
+}
+
+header{
+    background-color: burlywood;
+}
+nav{
+    background-color: aqua;
+}
+
+main{
+    background-color: darkgoldenrod;
+    width: 65.6vw;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+main div{
+    background-color: bisque;
+    width: 17vw;
+    margin: 2rem;
+}
+
+main div img{
+    width: 16vw;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+main div p{
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+}
+
+main div p s{
+    color:red;
+}
+
+aside{
+    background-color: pink;
+    width: 14.4vw;
+
+}
+
+aside h3{
+    text-align: center;
+}
+
+aside ul li{
+    font-size: 1.2rem;
+}
+
+
+footer{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.preco{
+    float: right;
+}
+
+input{
+    border-style: solid;
+    
+}
+
+input:focus{
+    box-shadow: 0;
+    outline: 0;
+}
